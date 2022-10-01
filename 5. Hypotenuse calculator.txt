@@ -1,0 +1,27 @@
+import java.util.Scanner; //Donot forget to import scanner from database
+
+public class Main {
+    
+    public static void main(String[] args) {
+        
+    double x;
+    double y;
+    double z;
+    
+    Scanner scanner = new Scanner(System.in); //Remember this S-s = S(S)
+    
+    System.out.println("Enter side x: ");
+    x = scanner.nextDouble();
+    
+    System.out.println("Enter side y: ");
+    y = scanner.nextDouble();
+    
+    z = Math.sqrt((x*x)+(y*y)); //acc to formula x = under root (a sq. + b sq.)  ---> formulae of finding hypotenuse of a triangle in maths
+    
+    System.out.println("The hypotenuse would be: "+z);
+    scanner.close(); //donot forget to close your scanner always
+    
+    
+    }
+    
+}
